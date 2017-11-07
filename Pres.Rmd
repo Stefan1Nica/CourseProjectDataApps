@@ -1,0 +1,61 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Nica Stefan"
+date: "7 noiembrie 2017"
+output: slidy_presentation
+---
+
+This application is created using Shiny environment in RStudio. It's just a small sugestion based on how you feel. Introducing some keywords I try to recommend you some music or movie,
+
+## Instruction
+
+Application output : 
+ - Predicting music according to mood
+ - Predicting movie according to genre
+ 
+When writting mood and genre always keep caps-off
+
+## List of moods
+
+- happy
+- sad
+- alone
+- angry
+- bitchy
+- blank
+- confused
+- depressed
+- energetic
+- geeky
+- high
+- lazy
+- pleased
+
+## List of genres
+
+- action
+- musicals
+- biopic
+- period
+- romance
+- animation
+- science fiction
+- cult
+- disaster
+- spy
+- drama
+- fanatasy
+- thriller
+- gangster
+- war
+- westerns
+- horror
+
+## Some code
+
+```{r ,echo=TRUE}
+x <- rnorm(150)
+y <- x*x + rnorm(150)
+plot(x,y,xlab = "smile", ylab = "happiness")
+```
+
